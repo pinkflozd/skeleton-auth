@@ -2,7 +2,8 @@
 // import 'firebase/dist/index.esm.js';
 // import * as firebase from 'firebase/firebase.js';
 window.Fabric = window.Fabric || {};
-const firebase = window.firebase;
+import firebase from 'firebase/app';
+import 'firebase/auth';
 
 /**
  * `Fabric.AuthMixin`
