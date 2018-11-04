@@ -156,7 +156,7 @@ Fabric.AuthMixin = (superClass) => class extends superClass {
        */
       phoneCode: {
         type: String,
-        value: '+1',
+        value: '+386',
       },
       /*
        * Confirmation code
