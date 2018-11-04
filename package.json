@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git@github.com:FabricElements/skeleton-auth.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "BSD-3-Clause",
   "resolutions": {
     "inherits": "2.0.3",
