@@ -63,13 +63,13 @@ class SkeletonAuth extends Fabric.AuthMixin(PolymerElement) {
         }
   
         paper-button:not([disabled]) {
-          background: var(--paper-grey-800);
+          background: var(--paper-blue-600);
           color: white;
         }
   
         paper-button.forgot-password {
           background: transparent;
-          color: var(--button-forgot-password, var(--paper-grey-800));
+          color: var(--button-forgot-password, var(--paper-blue-600));
           @apply --auth-forgot-password;
         }
   
@@ -85,38 +85,38 @@ class SkeletonAuth extends Fabric.AuthMixin(PolymerElement) {
   
         paper-button.cancel:not([disabled]) {
           /* Recommended: --paper-red-a200 */
-          background: var(--button-calcel, var(--paper-grey-800));
+          background: var(--button-calcel, var(--paper-blue-600));
         }
   
         paper-button.google:not([disabled]) {
           /* Recommended: --paper-red-a200 */
-          background: var(--button-google-color, var(--paper-grey-900));
+          background: var(--button-google-color, var(--paper-blue-600));
         }
   
         paper-button.facebook:not([disabled]) {
           /* Recommended: --paper-indigo-a200 */
-          background: var(--button-facebook-color, var(--paper-grey-900));
+          background: var(--button-facebook-color, var(--paper-blue-600));
         }
   
         paper-button.twitter:not([disabled]) {
           /* Recommended: --paper-blue-a200 */
-          background: var(--button-twitter-color, var(--paper-grey-900));
+          background: var(--button-twitter-color, var(--paper-blue-600));
         }
   
         paper-button.phone:not([disabled]) {
-          background: var(--button-phone-color, var(--paper-grey-900));
+          background: var(--button-phone-color, var(--paper-blue-600));
         }
   
         paper-button.github:not([disabled]) {
-          background: var(--button-github-color, var(--paper-grey-900));
+          background: var(--button-github-color, var(--paper-blue-600));
         }
   
         paper-button.anonymous:not([disabled]) {
-          background: var(--button-anonymous-color, var(--paper-grey-900));
+          background: var(--button-anonymous-color, var(--paper-blue-600));
         }
   
         paper-button.email:not([disabled]) {
-          background: var(--button-email-color, var(--paper-grey-900));
+          background: var(--button-email-color, var(--paper-blue-600));
         }
   
         paper-button iron-icon {
