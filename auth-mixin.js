@@ -3,7 +3,6 @@
 // import * as firebase from 'firebase/firebase.js';
 window.Fabric = window.Fabric || {};
 import firebase from 'firebase/app';
-import '../../../src/elements/firebase-app.js';
 import 'firebase/auth';
 
 /**
